@@ -1,0 +1,47 @@
+Output:
+
+The probability of "Water" appearing after "<s>" is 0.0004
+The probability of "<s>" appearing after "Water" is 0
+The probability of "economy" appearing after "planned" is 0.046511627906976744
+The probability of "</s>" appearing after "." is 1.0
+
+Lambda = 0
+0.004496536799964109    <s> He said . </s>
+3.762673218936471e-14   <s> Israel and Jordan signed the peace process . </s>
+2.2198405834260183e-05  <s> It is expected . </s>
+
+Lambda = 0.7
+0.004496536799964109    <s> He said . </s>
+3.762673218936471e-14   <s> Israel and Jordan signed the peace process . </s>
+2.2198405834260183e-05  <s> It is expected . </s>
+
+Lambda = 0
+3.8095238095238085e-05  <s> As winter . </s>
+1.853493052850281e-05   <s> The BIFU added . </s>
+4.1682682008696016e-11  <s> Under the bright sunshine , said . </s>
+
+Lambda = 0.5 and maxToken = 20
+3.8095238095238085e-05  <s> As winter . </s>
+1.853493052850281e-05   <s> The BIFU added . </s>
+4.1682682008696016e-11  <s> Under the bright sunshine , said . </s>
+
+Lambda = 0
+3.8095238095238085e-05  <s> As winter . </s>
+1.853493052850281e-05   <s> The BIFU added . </s>
+4.1682682008696016e-11  <s> Under the bright sunshine , said . </s>
+
+Lambda = 1 and maxToken = 10
+3.8095238095238085e-05  <s> As winter . </s>
+1.853493052850281e-05   <s> The BIFU added . </s>
+4.1682682008696016e-11  <s> Under the bright sunshine , said . </s>
+
+Lambda = 0 and beamWidth = 10
+3.8095238095238085e-05  <s> As winter . </s>
+1.853493052850281e-05   <s> The BIFU added . </s>
+4.1682682008696016e-11  <s> Under the bright sunshine , said . </s>
+
+Lambda = 1 and beamWidth = 50
+3.8095238095238085e-05  <s> As winter . </s>
+1.853493052850281e-05   <s> The BIFU added . </s>
+4.1682682008696016e-11  <s> Under the bright sunshine , said . </s>
+
